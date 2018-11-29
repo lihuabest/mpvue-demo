@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/index/search/main",
+    "pages/party/main",
+    "pages/shopCart/main",
+    "pages/inquisition/main",
+    "pages/my/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#37CEB8",
+    "navigationBarTitleText": "博仁养老中心",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#15B0A0",
+    "color": "#888888",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "iconPath": "static/images/tabbar_ic_home_normal.png",
+        "selectedIconPath": "static/images/tabbar_ic_home_pre.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/party/main",
+        "iconPath": "static/images/tabbar_ic_party_normal.png",
+        "selectedIconPath": "static/images/tabbar_ic_party_pre.png",
+        "text": "党建"
+      },
+      {
+        "pagePath": "pages/shopCart/main",
+        "iconPath": "static/images/tabbar_ic_order_normal.png",
+        "selectedIconPath": "static/images/tabbar_ic_order_pre.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/inquisition/main",
+        "iconPath": "static/images/tabbar_ic_conversation_normal.png",
+        "selectedIconPath": "static/images/tabbar_ic_conversation_pre.png",
+        "text": "问诊"
+      },
+      {
+        "pagePath": "pages/my/main",
+        "iconPath": "static/images/tabbar_ic_user_normal.png",
+        "selectedIconPath": "static/images/tabbar_ic_user_pre.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
